@@ -1,0 +1,104 @@
+{
+  "height": 1224,
+  "objects": [
+    {
+      "height": 0,
+      "thickness": 10,
+      "type": "line",
+      "width": 200,
+      "x": 300,
+      "y": 100
+    },
+    {
+      "height": 150,
+      "thickness": 2,
+      "type": "rectangle",
+      "width": 200,
+      "x": 50,
+      "y": 100
+    },
+    {
+      "angle": 0,
+      "drawRect": true,
+      "font": "Arial",
+      "fontHeight": 45,
+      "height": 200,
+      "text": "",
+      "type": "text",
+      "variable": "var0",
+      "width": 480,
+      "x": 300,
+      "y": 200
+    },
+    {
+      "height": 150,
+      "thickness": 2,
+      "type": "ellipse",
+      "width": 220,
+      "x": 290,
+      "y": 25
+    },
+    {
+      "variable": "bc0",
+      "DMFormat": 0,
+      "QRECLevel": 1,
+      "QRFormat": 0,
+      "angle": 0,
+      "autoCheckDigit": true,
+      "bearerBarWidth": 1,
+      "bwr": 0,
+      "code": "",
+      "fontName": "Arial",
+      "fontSize": 20,
+      "height": 150,
+      "modulesQZ": 0,
+      "rectangleGuard": false,
+      "segmentsByRow": 6,
+      "showLabel": true,
+      "sizeMode": 0,
+      "sizeModules": 5,
+      "textAbove": false,
+      "type": "barcode",
+      "typeBarcode": 58,
+      "width": 300,
+      "x": 10,
+      "y": 300
+    },
+    {
+      "angle": 0,
+      "embeded": false,
+      "height": 377,
+      "image": "",
+      "path": "E:\\dev\\c++\\opencv\\examples\\DemoGraphObjects\\DemoGraphObjects\\images\\img1.bmp",
+      "type": "image",
+      "width": 377,
+      "x": 800,
+      "y": 10
+    }
+  ],
+  "variables": [
+    {
+      "applyPad": false,
+      "name": "var0",
+      "outputMask": "",
+      "padChar": "0",
+      "padLength": 0,
+      "prefix": "HOLA ",
+      "sufix": " MUNDO",
+      "textValue": "Limitronic\n012345\nèáñôç\n車B1234 こんにちは",
+      "type": "text"
+    },
+    {
+      "applyPad": false,
+      "name": "bc0",
+      "outputMask": "",
+      "padChar": "0",
+      "padLength": 0,
+      "prefix": "",
+      "sufix": "",
+      "textValue": "http://www.limitronic.com",
+      "type": "text"
+    }
+  ],
+  "width": 512
+}
